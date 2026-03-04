@@ -3,6 +3,7 @@ Excel Data Analytics Project Comparing Student performance through data Cleaning
 Project Overview
      This project analyses student performance data using Microsoft Excel. The objective was to clean raw data, perform analysis, and create an interactive dashboard.
      Tools Used:
+     
      1. Microsft Excel
      2. Pivot Tables
      3. Data Cleaning Techniques (Power Query)
