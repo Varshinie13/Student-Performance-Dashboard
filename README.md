@@ -26,6 +26,11 @@ Project Overview:
      Handling missing values
      Formatted the colums
      Created Calculated Fields
+
+     Dashboard:
+
+     <img width="960" height="540" alt="Student Performance Dashboard" src="https://github.com/user-attachments/assets/bbac8ae6-f2d1-4d3e-978b-58bea633b8f1" />
+
      
      Dashboard Features:
      
