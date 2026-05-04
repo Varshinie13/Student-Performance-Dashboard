@@ -57,15 +57,14 @@ Dashboard:
  
  To elevate this from a descriptive dashboard to a predictive one, I applied the following statistical frameworks:
  
- 1. Correlation vs. Causality Observation: There is a strong positive correlation between "Parental Involvement" and "Exam Score. Statistical Note: Using a Pearson Correlation Coefficient, we can quantify this relationship. However, as an analyst, I recognize that parental involvement may be a proxy for socio-economic status, necessitating further Multivariate Regression to isolate the true impact.
+ 1. Correlation vs. Causality Observation: There is a strong positive correlation ($r$) between "Parental Involvement" and "Exam Score. Statistical Note: Using a Pearson Correlation Coefficient, we can quantify this relationship. However, as an analyst, I recognize that parental involvement may be a proxy for socio-economic status, necessitating further Multivariate Regression to isolate the true impact.
 
     
- 2. Predictive Modeling (Linear Regression)By applying a Linear Regression model , we can predict a student's final score based on: Weekly study hours, Hours of sleep.
-Prediction: For every additional hour of sleep (up to 8 hours), we observe a predicted increase of approximately $n$ points in the final exam score, holding study hours constant.
+2. Predictive Modeling (Linear Regression)By applying a Linear Regression model ($Y = \beta_0 + \beta_1X_1 + \beta_2X_2 + \epsilon$), we can predict a student's final score ($Y$) based on:$X_1$: Weekly study hours.$X_2$: Hours of sleep.Prediction: For every additional hour of sleep (up to 8 hours), we observe a predicted increase of approximately $n$ points in the final exam score, holding study hours constant.
 
     
  
- 4. Hypothesis Testing Null Hypothesis ($H_0$): There is no significant difference in exam scores between students with and without internet access.T-Test Result: By performing an Independent Samples T-test, we can determine if the observed difference in the bar charts is statistically significant ($p < 0.05$) or simply due to random chance.
+ 3. Hypothesis Testing Null Hypothesis ($H_0$): There is no significant difference in exam scores between students with and without internet access.T-Test Result: By performing an Independent Samples T-test, we can determine if the observed difference in the bar charts is statistically significant ($p < 0.05$) or simply due to random chance.
 
 
 
